@@ -1,0 +1,378 @@
+:root {
+  --pr-color: #1f8473;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #d1fff7;
+}
+
+/* navbar */
+.navbar {
+  z-index: 3;
+}
+
+.nav-color {
+  background-color: #1f8473;
+  transition: all ease-in-out 0.3s;
+}
+
+.bg-transparent {
+  transition: all ease-in-out 0.3s;
+}
+.nav-link {
+  font-size: 16px;
+  color: #fff;
+}
+.nav-link:hover {
+  color: #bafbf0;
+}
+
+.nav-link.active {
+  font-weight: 700;
+}
+
+.button-primary {
+  width: 100px;
+  height: 40px;
+  background-color: transparent;
+  color: #000;
+  border: none;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.button-secondary {
+  width: 133px;
+  height: 40px;
+  background-color: #fff;
+  color: var(--pr-color);
+  border: none;
+  font-size: 16px;
+  font-weight: 700;
+
+  border-radius: 5px;
+}
+
+/* siapa kamu */
+
+#siapa_kamu {
+  padding: 80px 0;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 48px;
+  color: #1f8473;
+}
+
+.sub-title {
+  font-size: 16px;
+  color: #000;
+}
+
+.card-pilihan {
+  padding: 60px 0;
+}
+
+/* before hover */
+.card-pelajar {
+  width: 100%;
+  height: 313px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.05);
+  color: #1f8473;
+  transition: all 0.2s ease-in;
+}
+.card-pelajar h4 {
+  padding: 5px;
+  font-weight: 600;
+  font-size: 24px;
+}
+.card-pelajar img {
+  padding: 5px;
+}
+.card-cc {
+  width: 100%;
+  height: 313px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.05);
+  color: #1f8473;
+  transition: all 0.2s ease-in;
+}
+.card-cc h4 {
+  padding: 5px;
+  font-weight: 600;
+  font-size: 24px;
+}
+.card-cc img {
+  padding: 5px;
+}
+
+/* hover */
+.card-pelajar:hover {
+  width: 100%;
+  height: 313px;
+  border-radius: 10px;
+  background: linear-gradient(160deg, #23c7ac, #1f8473);
+  box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.05);
+  color: #fff;
+  transition: all 0.2s ease-in;
+}
+.card-cc:hover {
+  width: 100%;
+  height: 313px;
+  border-radius: 10px;
+  background: linear-gradient(160deg, #23c7ac, #1f8473);
+  box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.05);
+  color: #fff;
+  transition: all 0.2s ease-in;
+}
+
+/* video */
+.video_main {
+  padding-top: 50px 0;
+}
+
+/* footer */
+#footer {
+  background-color: #1f8473;
+  padding: 60px;
+  color: #fff;
+}
+.bottom {
+  font-size: 12px;
+}
+
+/* disable href */
+a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  color: inherit;
+}
+:root {
+  --pr-color: #1f8473;
+}
+
+/* navbar */
+.navbar {
+  z-index: 3;
+}
+
+.nav-link {
+  font-size: 16px;
+}
+
+.nav-link.active {
+  font-weight: 700;
+}
+
+.button-primary {
+  width: 100px;
+  height: 40px;
+  background-color: transparent;
+  color: #000;
+  border: none;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.button-secondary {
+  width: 133px;
+  height: 40px;
+  background-color: #fff;
+  color: var(--pr-color);
+  border: none;
+  font-size: 16px;
+  font-weight: 700;
+
+  border-radius: 5px;
+}
+
+/* hero */
+
+#hero {
+  background: linear-gradient(160deg, #23c7ac, #1f8473);
+  height: 100vh;
+  width: 100%;
+}
+
+.img-hero {
+  height: 100%;
+  z-index: 1;
+}
+
+.hero-tagline h1 {
+  color: #fff;
+  font-weight: 700;
+  font-size: 50px;
+}
+.hero-tagline h2 {
+  color: #fff;
+  font-weight: 300;
+  font-size: 50px;
+}
+
+.hero-tagline p {
+  color: #fff;
+  font-size: 24px;
+  margin-bottom: 1px;
+}
+
+.kelas {
+  color: #fff;
+  font-size: 24px;
+  margin-bottom: 1px;
+  font-weight: 600;
+}
+
+.button-lg-primary {
+  width: 237px;
+  height: 70px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #1f8473;
+  background-color: #fff;
+  box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.05);
+  transition: all 0.2s ease-in;
+}
+.button-lg-primary:hover {
+  width: 237px;
+  height: 70px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+  background: linear-gradient(160deg, #23c7ac, #155c50);
+  box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.05);
+  transition: all 0.2s ease-in;
+}
+
+/* siapa kamu */
+
+#siapa_kamu {
+  padding: 80px 0;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 48px;
+  color: #1f8473;
+}
+
+.sub-title {
+  font-size: 16px;
+  color: #000;
+}
+
+.card-pilihan {
+  padding: 60px 0;
+}
+
+.set_foto img {
+  border-radius: 10px;
+}
+
+/* before hover */
+.card-video {
+  width: 100%;
+  height: 0px;
+  border-radius: 5px;
+  height: 313px;
+  background-color: rgba(0, 0, 0, 0);
+  color: #1f8473;
+  transition: all 0.2s ease-in;
+}
+
+.card-video img {
+  padding: 5px;
+}
+
+.card-video p {
+  font-weight: 600;
+}
+
+.card-video .konten_user {
+  padding-left: 20px;
+}
+
+.card-video .desc {
+  padding-left: 25px;
+}
+
+.card-video .judul {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.card-video .desk {
+  font-size: 14px;
+  height: 18px;
+  color: #000;
+}
+
+/* footer */
+#footer {
+  background-color: #1f8473;
+  padding: 60px;
+  color: #fff;
+}
+.bottom {
+  font-size: 12px;
+}
+
+/* disable href */
+a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* CARI */
+
+.input-cari {
+  height: 70px;
+}
+
+.input-cari:focus {
+  border: none;
+}
+
+.input-cari .button-secondary {
+  width: 200px;
+  height: 70px;
+  background-color: rgba(31, 132, 115, 0.5);
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.input-cari .button-primary {
+  height: 70px;
+  background-color: rgba(31, 132, 115, 0.5);
+  color: #fff;
+  border: none;
+  font-size: 26px;
+  font-weight: 500;
+}
+
+.video2 {
+  padding-top: 100px;
+}
+
+.video2 h3 {
+  color: #fff;
+  padding-top: 20px;
+}
+.deskripsi2 p {
+  font-weight: 500;
+}
